@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Salita"
+        tools:targetApi="31">
+        <activity
+            android:name=".dashboard_activity.activity.AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.assessment.HardMode"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.assessment.ModerateMode"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.AssessmentHistory"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.assessment.EasyMode"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.home.fsl_keyboard.FSLKeyboard"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.home.emergency_activity.ViewFSLEmergency"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.home.emergency_activity.FSLEmergency"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.home.fsl_act_activity.FSLAct"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.home.FSLOverview"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.GenerateResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".welcome_activity.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".viewpager_activity.GetStartedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.sprtcoding.signlanguagekeyboardlibrary.SignLanguageKeyboardService"
+            android:exported="true"
+            android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

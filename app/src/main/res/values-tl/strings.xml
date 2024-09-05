@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Salita</string>
+    <string name="ime_name">Sign Language Keyboard</string>
+    <string name="title_desc">Filipino Sign Language Translator</string>
+
+    <string name="header_1">Filipino Sign Language Application Translator</string>
+    <string name="header_2">Empowering Silence, Bridging Worlds:</string>
+    <string name="header_3">Bridging voices to Life:</string>
+
+    <string name="desc_1">Taglay ang Diwa ng Komunikasyon</string>
+    <string name="desc_2">Resolve communication barrier</string>
+    <string name="desc_3">Your Sign, Our Language.</string>
+    <string name="get_started">Get Started</string>
+
+    <string name="welcome_msg">Ang aplikasyon na ito ay nagbibigay-daan sa mga bingi na mga indibidwal na mapadali ang komunikasyon at masolusyunan ang agwat sa pagitan nila at ng mga hindi pamilyar. Ito ay isang converter na kung saan maaaring makipag-ugnayan ang dalawang benepisyaryo gamit ang generator ng sign language na nagko-convert sa text at vice versa.
+    </string>
+    <string name="con">Magpatuloy</string>
+    <string name="good_day">Magandang Araw!</string>
+    <string name="welcome_to_our_community">Ikinalulugod namin ang inyong pagbisita!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="learn_more_about_fsl">Dagdag kaalaman tungkol sa FSL</string>
+    <string name="fsl_desc">Sa pagpasa ng Filipino Sign Language Act noong 2018, ang Filipino Sign Language (FSL) ay nakakuha ng opisyal na pagkilala bilang pambansang sign language ng Pilipinas. Sa mga pagkakaiba-iba sa antas ng pambansa, lokal (komunidad), at domestic (tahanan), inilalarawan ito bilang isang hindi pinag-aralan na wika ng senyas ng komunidad ng bingi sa Timog-silangang Asya.</string>
+
+    <string name="fsl_1">Ideya patungkol sa FSL</string>
+    <string name="fsl_2">Ang Filipino Sign Language Act</string>
+    <string name="fsl_3">Ideya patungkol sa FSL Keyboard</string>
+    <string name="fsl_4">Ideya patungkol sa FSL Emergency Signs</string>
+    <string name="translator">Translator</string>
+    <string name="prepared_to_use">Prepared to use</string>
+    <string name="text_keyboard">Text Keyboard</string>
+    <string name="sign_language">Sign Language</string>
+    <string name="type_your_text_here">Type your text here…</string>
+    <string name="generate">Generate</string>
+    <string name="result">Result</string>
+    <string name="clear">Clear</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="exit">Exit</string>
+
+    <string name="fsl_overview_title">Inilahad ni Liberty Notarte-Balanquit ang pananaliksik patungkol sa Filipino Sign Language</string>
+    <string name="fsl_overview_desc">Ayon sa pagtataya na ginawa ng Philippine Statistics Authority mayroong 1,784,690 katao ang may kapansanan sa pandinig sa taong 2020. Sila ay bahagi ng iba\'t ibang komunidad sa buong bansa at pangunahing mga anak ng pamilyang nakakarinig na nagtuturo sa kanila kung paano gumamit ng mga palatandaan sa bahay. Sa pamamagitan ng pormal na pagtuturo ng FSL sa elementarya, ang mga batang bingi ay maaaring makipag-usap sa mga taong nakakarinig gayundin sa iba pang may kapansanan sa pandinig. Hindi nakakagulat na ang mga negatibong saloobin sa pagkabingi ay karaniwan. Ang mga batang bingi ay madalas na napipilitang umangkop sa kapaligiran ng pandinig (Balanquit, 2023).</string>
+    <string name="ra_desc_1">ISANG BATAS NA NAGDEKLARA SA FILIPINO SIGN LANGUAGE BILANG NATIONAL SIGN LANGUAGE NG FILIPINO DEAF AT OPISYAL NA SIGN LANGUAGE NG GOBYERNO SA LAHAT NG MGA TRANSAKSIYON NA NAGSASABOT NG MGA BINGI, AT MANDATING ANG PAGGAMIT NITO SA MGA PAARALAN, BROADCAST MEDIA, AT TRABAHO.</string>
+    <string name="ra_desc_2">Maging isabatas ng Senado at Kapulungan ng mga Kinatawan ng Pilipinas sa pagtitipon ng Kongreso:</string>
+    <string name="section_1_title">SEKSYON 1. Pamagat - Ang Batas na ito ay dapat kilalanin bilang "Ang Filipino Sign Language Act."</string>
+    <string name="section_2">SEKSYON 2. Deklarasyon ng Patakaran - Ang Estado ay dapat, bilang pagsunod sa United Nations Convention on the Rights of Persons with Disabilities, itaguyod, protektahan, at tiyakin ang buo at pantay na pagtatamasa ng lahat ng karapatang pantao at mga pangunahing kalayaan ng mga taong may kapansanan. Kaya, ang pambansa at lokal na mga ahensya ng Estado ay dapat itaguyod ang paggalang sa kanilang likas na dignidad, indibidwal na awtonomiya, at kasarinlan sa pamamagitan ng paggarantiya ng accessibility at pag-aalis ng lahat ng anyo ng diskriminasyon sa lahat ng pampublikong pakikipag-ugnayan at transaksyon, sa gayo\'y tinitiyak ang kanilang buo at epektibong pakikilahok at pagsasama sa lipunan. Dapat ding gawin ng Estado ang lahat ng naaangkop na hakbang upang matiyak na ang Pilipinong bingi ay maaaring gumamit ng karapatan sa pagpapahayag at opinyon. Alinsunod dito, kinikilala at itinataguyod ng Estado ang paggamit ng mga wikang pasenyas na naglalaman ng tiyak na pagkakakilanlan sa kultura at linggwistika ng mga Pilipinong bingi.
+    \n\nPinalalakas din ng Estado ang pananaw na kinuha sa  Early Years Act  (  Republic Act No. 10410  ) at ang  Enhanced Basic Education Act  (  Republic Act No. 10533  ), na kinikilala na ang Filipino Sign Language sa edukasyon ng mga bingi na nag-aaral mula sa maagang pagkabata hanggang sa. sa sekondaryang antas.
+    </string>
+    <string name="section_3">SEKSYON 3. Filipino Sign Language bilang National Sign Language - Ang Filipino Sign Language, pagkatapos ay tinutukoy bilang FSL, ay idineklara bilang pambansang sign language ng Pilipinas. Ang FSL ay dapat kilalanin, i-promote, at susuportahan bilang midyum ng opisyal na komunikasyon sa lahat ng mga transaksyon na kinasasangkutan ng mga bingi, at bilang wika ng pagtuturo ng edukasyon ng mga bingi, nang walang pagkiling sa paggamit ng iba pang mga anyo ng komunikasyon depende sa indibidwal na pinili o kagustuhan.</string>
+    <string name="introducing_fsl_emergency_signs">Mga ilang Halimbawa FSL Emergency Signs</string>
+    <string name="section_4_a">SEKSYON 4. Filipino Sign Language sa Edukasyon. - (a) Midyum ng Pagtuturo at Kurikulum. - Ang Kagawaran ng Edukasyon (DepEd), ang Commission on Higher Education (CHED), ang Technical Education and Skills Development Authority (TESDA), at lahat ng iba pang ahensya ng pambansa at lokal na pamahalaan na kasangkot sa edukasyon ng mga bingi, ay inatasan na gamitin mula ngayon, at makipag-ugnayan sa isa\'t isa sa paggamit ng FSL, bilang midyum ng pagtuturo sa edukasyong bingi. Ang FSL ay dapat ding ituro bilang isang hiwalay na paksa sa kurikulum para sa mga bingi na nag-aaral. Ang pagbasa at pagsulat ng Filipino, bilang pambansang wika, iba pang mga wika sa Pilipinas, at Ingles ay dapat ding ituro sa mga bingi na nag-aaral.</string>
+    <string name="section_4_b">(b) Mga Guro na Bingi. - Upang isulong ang paglilisensya at pagpapakilos ng mga bingi na guro sa pormal na edukasyon gayundin ang mga alternatibong sistema ng pag-aaral, ang Professional Regulation Commission (PRC) kasama ang mga programa sa edukasyon ng guro sa buong bansa ay inaatasan na gumamit ng mga alternatibong pamamaraan sa pagtatasa bilang mga hakbang sa affirmative action na dapat isaalang-alang ang mga kondisyon, kakayahan. , at mga hadlang sa lipunan ng mga gurong bingi. Ang mga pamamaraang ito ay dapat na angkop sa wika at patas sa kultura para sa mga nagtapos ng edukasyong bingi.</string>
+    <string name="section_4_c">(c) FSL sa Mga Programa sa Edukasyon ng Guro. - Sa konteksto ng inklusibong edukasyon at Pangkalahatang Disenyo, ang pag-aaral ng FSL ay dapat na isang curricular o co-curricular na alok sa mga programa sa edukasyon ng guro kung itinuring na naaangkop.</string>
+    <string name="section_4_last">Ang Unibersidad ng Pilipinas (UP), kasama ang Komisyon sa Wikang Filipino (KWF), mga propesyonal na sign linguistics at linguistics na mananaliksik, sa pakikipagtulungan ng CHED at DepEd, at ng Early Childhood Care and Development (ECCD) Council, ay bubuo mga patnubay para sa pagbuo ng mga materyales sa pagsasanay sa edukasyon ng mga bingi para magamit ng lahat ng state universities and colleges (SUCs), gayundin ng kanilang mga guro at kawani. </string>
+    <string name="section_5">SEKSYON 5.  Mga Pamantayan para sa Filipino Sign Language Interpreting. - Ang KWF, kasama ang pakikilahok ng komunidad ng mga bingi at iba pang mga stakeholder, ay dapat magtatag ng isang pambansang sistema ng mga pamantayan, akreditasyon, at mga pamamaraan para sa interpretasyon ng FSL, nang walang pagkiling sa iba pang anyo ng komunikasyon na gumagalang sa karapatan ng isang bingi sa accessibility, at sa maghanap, tumanggap, magbigay ng mga ideya sa pantay na batayan sa iba ayon sa kanilang pinili. Kabilang dito ang mga patakaran sa pagsasagawa ng interpretasyon bilang isang propesyon tulad ng mga rate ng kompensasyon at benepisyo, mga kondisyon sa pagtatrabaho, mga pamamaraan para sa mga karaingan at iba pa.</string>
+    <string name="section_6">SEKSYON 6. Filipino Sign Language sa Sistema ng Katarungan. - Ang FSL ay dapat maging opisyal na wika ng legal na interpretasyon para sa mga bingi sa lahat ng mga pampublikong pagdinig, paglilitis, at mga transaksyon ng mga korte, mga ahensyang mala-hudisyal, at iba pang mga tribunal. Upang matiyak ang epektibong pag-access sa hustisya para sa mga bingi sa pantay na batayan sa iba at upang mapadali ang kanilang epektibong tungkulin bilang direkta at hindi direktang mga kalahok sa sistemang legal, ang mga korte, quasi-judicial na ahensya, at iba pang mga tribunal ay inaatasan nitong tiyakin ang pagkakaroon ng isang kwalipikadong tagapagsalin ng wikang senyas sa lahat ng mga paglilitis na kinasasangkutan ng mga bingi, nang walang pagkiling sa karapatan ng mga bingi na pumili ng iba pang mga paraan o paraan ng komunikasyon, kung gusto nila.</string>
+    <string name="section_6_2">Para sa mga layunin ng Batas na ito, ang "mga pagdinig, paglilitis, at mga transaksyon" ay dapat isama ang mga nasa istasyon ng pulisya at sa harap ng Lupong Tagapamayapa ng Katarungang Pambarangay , gayundin ang mga paunang pagsisiyasat at iba pang mga paunang yugto sa mga korte, quasi-judicial na katawan, at iba pang mga tribunal.
+    \n\nAng Korte Suprema at iba pang kinauukulang ahensya ay dapat magsulong ng angkop na pagsasanay para sa mga nagtatrabaho sa pangangasiwa ng hustisya, kabilang ang mga interpreter sa pagdinig, mga deaf relay interpreter, at iba pang tauhan ng hukuman, pulis at kawani ng bilangguan. Ang mga kawani ng suporta ay dapat ding sanayin sa pagsasalin mula sa FSL sa nakasulat na Ingles o Filipino.
+    \n\nAng Department of Justice (DOJ), at ang Department of the Interior and Local Government (DILG), at ang Hudikatura, kasama ang paglahok ng komunidad ng bingi at iba pang stakeholder, ay inatasan na lumikha ng isang pambansang sistema ng mga pamantayan, akreditasyon, at mga pamamaraan. para sa legal na interpretasyon sa FSL.
+    </string>
+    <string name="section_7">SEKSYON 7. Filipino Sign Language sa Lahat ng Lugar ng Trabaho. - Ang FSL ay dapat ang opisyal na wika ng Filipino na bingi na nagtatrabaho sa serbisyo sibil at sa lahat ng mga lugar ng trabaho ng gobyerno. Para sa layuning ito, ang lahat ng mga tanggapan ng gobyerno ay dapat gumawa ng mga makatwirang hakbang upang hikayatin ang paggamit ng FSL sa mga bingi at nakakarinig na mga empleyado nito, kabilang ang pagsasagawa ng mga seminar ng kamalayan at pagsasanay sa katwiran at paggamit ng FSL.
+    \n\nAng UP, kasama ang KWF, mga organisasyong propesyonal sa lingguwistika at mga mananaliksik sa linggwistika ng bingi, ay dapat bumalangkas ng mga patnubay para sa pagbuo ng mga materyales sa pagsasanay para sa mga empleyado ng DOJ, Hudikatura, Department of Health (DOH), Department of Social Welfare and Development (DSWD), Philippine Commission on Women (PCW), Council for the Welfare of Children (CWC), at Commission on Human Rights (CHR), sa pagsasagawa ng mga mandato at aktibidad ng mga kinauukulang tanggapang ito.
+    </string>
+    <string name="section_8">SEKSYON 8. Filipino Sign Language sa Health System. - Ang mga ospital ng estado at lahat ng pasilidad ng kalusugan ay dapat gumawa ng mga hakbang upang matiyak ang access ng mga Pilipinong bingi sa mga serbisyong pangkalusugan, kabilang ang libreng probisyon ng mga FSL interpreter at mga materyal na magagamit kapag hiniling ng mga bingi na pasyente, o mga indibidwal na may mga miyembro ng pamilya na bingi. Bilang bahagi ng kanilang corporate social responsibility, hinihikayat ang mga pribadong pasilidad sa kalusugan na magbigay ng access sa mga serbisyong pangkalusugan sa lahat ng mga bingi na pasyente at mga miyembro ng kanilang pamilya.</string>
+    <string name="section_9">SEKSYON 9.  Filipino Sign Language sa Lahat ng Iba Pang Pampublikong Transaksyon, Serbisyo, at Pasilidad. - Lahat ng pambansang ahensya kabilang ang government-owned or -controlled corporations (GOCCs), at local government units (LGUs) ay inaatasan dito na gamitin ang FSL bilang medium ng opisyal na komunikasyon sa lahat ng pampublikong transaksyon na kinasasangkutan ng mga bingi. Ang mga kwalipikadong interpreter ng FSL at naa-access na mga materyales ay dapat ibigay kapag kinakailangan o hinihiling sa panahon ng mga fora, mga kumperensya, mga pagpupulong, mga kaganapang pangkultura, mga kompetisyon sa palakasan, mga gawain sa komunidad, at mga aktibidad na isinasagawa ng mga ahensya ng gobyerno at mga GOCC.</string>
+    <string name="section_10"> SEKSYON 10. Filipino Sign Language sa Media. Ang FSL ay dapat ang wika ng broadcast media interpreting. - Upang matiyak ang pag-access sa impormasyon at kalayaan sa pagpapahayag ng mga Pilipinong bingi, ang Kapisanan ng mga Brodkaster sa Pilipinas (KBP), at ang Movie and Television Review and Classification Board (MTRCB) ay dapat, sa loob ng isang (1) taon mula sa petsa ng bisa ng ang Batas na ito, ay nangangailangan ng mga inset ng interpreter ng FSL, na sumusunod sa mga pamantayan ng accessibility para sa telebisyon, sa mga programa sa balita at pampublikong gawain. Kasunod nito, ang MTRCB ay gagawa ng mga hakbang upang isulong ang progresibong paggamit ng FSL sa lahat ng iba pang mga broadcast at programming, lalo na sa mga programang pang-edukasyon sa telebisyon na idinisenyo para sa mga bata, kasabay ng National Council for Children\'s Television at ng DepEd.
+    \n\nAng KBP at ang MTRCB, ang komunidad ng mga bingi, at iba pang mga stakeholder ay inatasang lumikha ng isang pambansang sistema ng mga pamantayan, pamamaraan at akreditasyon para sa broadcast media interpreting sa FSL.
+    Ang lahat ng mga video na nai-publish online, kabilang ang mga nasa social media, ay dapat ding sumunod sa mga pamantayan ng web accessibility ng Pilipinas.
+    </string>
+    <string name="section_11">SEKSYON 11. Pagsusulong ng Filipino Sign Language. - Ang DepEd, CHED, UP, KWF, Linguistic Society of the Philippines, at iba pang mga pambansang ahensya at LGU ay dapat, sa pagsangguni sa mga propesyonal na organisasyon na may kadalubhasaan at karanasan sa patakaran sa wika at pagpaplano at komunidad ng mga bingi, ay gagawa ng naaangkop na mga hakbang upang palaganapin ang kakayahan sa wikang pasenyas. sa mga taong nakakarinig, sa pamamagitan ng pag-aalok ng FSL bilang isang elektibong paksa sa regular o mainstream na kurikulum, partikular ng mga SUC.
+    Sa pakikipag-ugnayan sa KWF, ang mga SUC, sa pangunguna ng UP, ay inaatasan na magsagawa ng patuloy na pagsasaliksik para sa pagpapaunlad, pagpapalaganap, at pangangalaga ng FSL at ang kasaysayang pangkultura nito.
+    </string>
+    <string name="section_12">SEKSYON 12. Mga Materyales sa Pagtuturo para sa Mga Paaralan at Sentro ng Pagpapaunlad ng Bata. - Ang DepEd Instructional Materials and Council Secretariat ay dapat, sa pakikipag-ugnayan sa Bureau of Learning Resources at Bureau of Learning Delivery, gayundin sa ECCD Council, bumuo ng mga patnubay para sa pagpili, produksyon, pagkuha, at pamamahagi ng mga print at video na materyales sa FSL sa lahat ng pampublikong paaralan, day care center, at national child development centers. Pitumpu\'t limang porsyento (75%) ng lahat ng kontrata sa pagkuha ay dapat nakalaan para sa mga organisasyon ng mga bingi, kabilang ang mga panrehiyon o panlalawigang negosyo at mga kooperatiba na pinamamahalaan ng mga bingi at kinikilala ng mga LGU.</string>
+    <string name="section_13">
+        SEKSYON 13. Pagpapatupad ng Mga Tuntunin at Regulasyon. - Ang KWF, sa pakikipag-ugnayan sa Kalihim ng Edukasyon, Tagapangulo ng CHED, Direktor Heneral ng TESDA, Tagapangulo ng PRC, at Punong Mahistrado ng Korte Suprema, Kalihim ng Katarungan, at mga pinuno ng iba pang nauugnay na mga ahensya, at sa pagsangguni sa mga kinatawan ng komunidad ng mga bingi, ang mga guro na may kaalaman at karanasan sa paggamit ng FSL sa edukasyon ng mga bingi, ang akademya, mga interpreter, at iba pang mga taong may kinalaman, ay dapat magpahayag ng mga kinakailangang tuntunin at regulasyon para sa epektibong pagpapatupad nito. Kumilos sa loob ng isang daan at walumpu (180) araw pagkatapos ng petsa ng bisa nito. Ang mga tuntunin at regulasyong ito ay dapat na mailathala sa mga naa-access na format sa kani-kanilang mga website ng mga kinauukulang ahensya at sa pamamagitan ng iba pang paraan na kinakailangan.
+    </string>
+    <string name="section_14">
+        SEKSYON 14. Mahigpit na Pagsubaybay at Pagpapatupad ng Batas na Ito. - Ang pagsubaybay at pagpapatupad ng Batas na ito ay dapat na mahigpit na itaguyod. Para sa layuning ito, nilikha ang Inter-Agency Council na bubuuin ng isang (1) kinatawan bawat isa mula sa CHR, CWC, PCW, KWF at mga organisasyon o institusyon ng FSL. Ang Inter-Agency Council ay dapat gumawa ng taunang ulat sa pagsubaybay at pagpapatupad ng Batas na ito at ang kopya nito ay dapat isumite sa parehong Kapulungan ng Kongreso at ilathala sa mga naa-access na format sa kani-kanilang mga website at sa pamamagitan ng iba pang paraan na kinakailangan upang maihatid ang layunin ng epektibong pagpapalaganap. Ang kabiguang sumunod sa alinman sa mga probisyon ng Batas na ito ay dapat na isang bagay na maaaring i-refer sa Civil Service Commission, DILG, Sandiganbayan o Office of the Ombudsman o iba pang nauugnay na mga tanggapan o katawan para sa naaangkop na mga parusa alinsunod sa umiiral na mga batas at regulasyon.
+    </string>
+    <string name="section_15">
+        SEKSYON 15. Mga Paglalaan. - Ang paunang pagpopondo ng Batas na ito ay kukunin mula sa kasalukuyang taon na paglalaan ng mga kinauukulang ahensya. Pagkatapos noon, ang halagang kailangan para sa patuloy na pagpapatupad nito ay isasama sa taunang General Appropriations Act. Ang mga nauugnay at pinahihintulutang paggasta na may kaugnayan sa edukasyon ay maaari ding singilin sa ECCD Council, sa LGU Special Education Fund, o iba pang nauugnay na pondo.
+    </string>
+    <string name="section_16">
+        SEKSYON 16. Sugnay ng Paghihiwalay. - Kung ang anumang probisyon ng Batas na ito ay idineklara na labag sa konstitusyon o hindi wasto, ang natitirang bahagi o mga probisyon na hindi apektado ay mananatiling ganap na may bisa at bisa.
+    </string>
+    <string name="section_17">
+        SEKSYON 17. Sugnay sa Pagpapawalang-bisa. - Lahat ng mga batas at ehekutibong pagpapalabas na hindi naaayon sa mga probisyon ng Batas na ito ay pinawawalang-bisa o sinusugan nang naaayon.
+    </string>
+    <string name="section_18">
+        SEKSYON 18. Petsa ng Pagkabisa. - Ang Batas na ito ay magkakabisa labinlimang (15) araw pagkatapos nitong mailathala sa  Opisyal na Pahayagan  o sa isang (1) pahayagan ng pangkalahatang sirkulasyon.
+    </string>
+    <string name="section_footer">
+        Naaprubahan,
+        \nGLORIA MACAPAGAL-ARROYO
+
+        \n\nTagapagsalita ng Kapulungan ng Kinatawan
+        \nVICENTE C. SOTTO III
+        \nPangulo ng Senado
+
+        \n\nAng Batas na ito ay ipinasa ng Senado ng Pilipinas bilang Senate Bill No. 1455 noong Agosto 28, 2018 at pinagtibay ng Kapulungan ng mga Kinatawan bilang pag-amyenda sa House Bill No. 7503 noong Setyembre 10, 2018.
+
+        \n\nDANTE ROBERTO P. MALING
+        \nActing Secretary General
+        \nKapulungan ng mga Kinatawan
+
+        \n\nMYRA MARIE D. VILLARICA
+        \nKalihim ng Senado
+        \nNaaprubahan: Oktubre 30, 2018
+
+        \n\nRODRIGO ROA DUTERTE
+        \nPresidente ng Pilipinas
+    </string>
+    <string name="fsl_keyboard_overview_title">ANG PAGPAPAKILALA SA FILIPINO SIGN LANGUAGE KEYBOARD</string>
+    <string name="fsl_keyboard_overview_desc">
+        Ang Filipino Sign Language Keyboard ay isang karagdagang tampok ng application na ito. Ang mga indibidwal na may kapansanan sa pandinig ay maaaring makipag-ugnayan nang mas epektibo sa mga digital na kapaligiran. Maaari nilang ipahayag ang kanilang sarili sa kanilang sariling wika sa pamamagitan ng paggamit nito, na nagtataguyod ng accessibility at inclusivity sa larangan ng komunikasyon.
+
+        \n\nAng FSL ay isang mahalagang bahagi ng Filipino Deaf culture na nagsisilbing kasangkapan sa komunikasyon. Ang pagpapakilala ng isang FSL keyboard ay nag-aambag sa pag-promote at pagpapanatili ng natatanging lingguwistika at kultural na pamana online.
+    </string>
+
+
+</resources>

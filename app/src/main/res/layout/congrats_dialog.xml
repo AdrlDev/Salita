@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Congrats..."
+        android:id="@+id/tv_title"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:fontFamily="@font/spartan_bold"
+        android:textColor="@color/_dark_blue_500"
+        android:letterSpacing=".1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:id="@+id/tv_score"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="20dp"
+        android:textSize="56sp"
+        android:fontFamily="@font/spartan_bold"
+        android:textColor="@color/_dark_blue_500"
+        android:letterSpacing=".1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="You got a highest score!"
+        android:id="@+id/tv_desc"
+        android:gravity="center"
+        android:layout_below="@id/tv_score"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/spartan_bold"
+        android:textColor="@color/_dark_blue_500"
+        android:letterSpacing=".1"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:layout_below="@id/tv_desc"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/_green"
+        android:fontFamily="@font/spartan_bold"
+        android:id="@+id/btn_ok"/>
+
+</RelativeLayout>

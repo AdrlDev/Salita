@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_123">/?123</string>
+    <string name="key_dot">.</string>
+    <string name="key_question">?</string>
+    <string name="key_exclamation">!</string>
+    <string name="double_quote">&quot;</string>
+</resources>

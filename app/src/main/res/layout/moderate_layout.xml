@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".6"
+        android:id="@+id/gl_6h"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5"
+        android:id="@+id/gl_5v"/>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/gl_6h"
+        android:id="@+id/fr_question">
+
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_selection_1"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/answer_selection_bg"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        app:layout_constraintTop_toTopOf="@id/gl_6h"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/gl_5v"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/letter_m"
+            android:id="@+id/img_answer_1"
+            android:contentDescription="@string/app_name"
+            android:layout_centerInParent="true"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Answer 1"
+            android:textColor="@color/white"
+            android:fontFamily="@font/spartan"
+            android:textSize="22sp"
+            android:padding="10dp"
+            android:id="@+id/tv_answer_1"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_selection_2"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/answer_selection_bg"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        app:layout_constraintTop_toTopOf="@id/gl_6h"
+        app:layout_constraintStart_toStartOf="@id/gl_5v"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/letter_m"
+            android:id="@+id/img_answer_2"
+            android:contentDescription="@string/app_name"
+            android:layout_centerInParent="true"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Answer 2"
+            android:textColor="@color/white"
+            android:fontFamily="@font/spartan"
+            android:textSize="22sp"
+            android:padding="10dp"
+            android:id="@+id/tv_answer_2"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_selection_3"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/answer_selection_bg"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_selection_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/gl_5v"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/letter_m"
+            android:id="@+id/img_answer_3"
+            android:contentDescription="@string/app_name"
+            android:layout_centerInParent="true"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Answer 3"
+            android:textColor="@color/white"
+            android:fontFamily="@font/spartan"
+            android:textSize="22sp"
+            android:padding="10dp"
+            android:id="@+id/tv_answer_3"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_selection_4"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/answer_selection_bg"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_selection_2"
+        app:layout_constraintStart_toStartOf="@id/gl_5v"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/letter_m"
+            android:id="@+id/img_answer_4"
+            android:contentDescription="@string/app_name"
+            android:layout_centerInParent="true"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Answer 4"
+            android:textColor="@color/white"
+            android:fontFamily="@font/spartan"
+            android:textSize="22sp"
+            android:padding="10dp"
+            android:id="@+id/tv_answer_4"
+            />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

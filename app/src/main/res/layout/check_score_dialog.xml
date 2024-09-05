@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="22sp"
+        android:fontFamily="@font/spartan_bold"
+        android:textColor="@color/_dark_blue_500"
+        android:id="@+id/tv_title"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100%"
+        android:textSize="32sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_title"
+        android:fontFamily="@font/spartan_bold"
+        android:textColor="@color/_dark_blue_500"
+        android:id="@+id/tv_score"
+        />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/tv_score"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/chart_score_pie"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chart_score_pie"
+        android:layout_centerHorizontal="true"
+        android:text="Ok"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/spartan_bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/_dark_blue_500"
+        android:id="@+id/btn_ok"
+        />
+
+</RelativeLayout>

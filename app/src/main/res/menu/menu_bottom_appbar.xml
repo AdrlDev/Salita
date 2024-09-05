@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_18"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/translator"
+        android:icon="@drawable/reverse_18"
+        android:title="Translator"/>
+
+    <item
+        android:id="@+id/assessment"
+        android:icon="@drawable/assessment_18"
+        android:title="Assessment"/>
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings_18"
+        android:title="Settings"/>
+</menu>

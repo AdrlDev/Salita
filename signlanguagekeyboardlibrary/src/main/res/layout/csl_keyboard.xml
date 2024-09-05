@@ -1,0 +1,13 @@
+<com.sprtcoding.signlanguagekeyboardlibrary.CustomSLKeyboard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/csl_keyboard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/keyboard_background"
+    android:keyPreviewLayout="@layout/preview_layout"
+    android:keyPreviewOffset="12dp"
+    android:keyTextColor="@color/black"
+    android:keyTextSize="18sp"
+    android:labelTextSize="14sp"
+    android:popupLayout="@layout/keyboard_popup_layout"
+    android:verticalCorrection="12dp"/>

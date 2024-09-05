@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Title"
+        android:textSize="22sp"
+        android:fontFamily="@font/spartan_bold"
+        android:textColor="@color/text_dark"
+        android:id="@+id/tv_title"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="30dp"
+        android:text="@string/desc_1"
+        android:fontFamily="@font/spartan"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:paddingHorizontal="10dp"
+        android:id="@+id/tv_desc"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Retake"
+        android:fontFamily="@font/spartan"
+        android:backgroundTint="@color/_green"
+        android:id="@+id/btn_retake"
+        android:textSize="12sp"
+        android:contentDescription="@string/app_name"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/tv_desc"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:fontFamily="@font/spartan"
+        android:backgroundTint="@color/_red"
+        android:id="@+id/btn_close"
+        android:textSize="12sp"
+        android:contentDescription="@string/app_name"
+        android:layout_toStartOf="@id/btn_retake"
+        android:layout_below="@id/tv_desc"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        />
+
+</RelativeLayout>
