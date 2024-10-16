@@ -1,4 +1,4 @@
-package com.sprtcoding.salita.dashboard_activity.activity.home.emergency_activity
+package com.sprtcoding.salita.dashboard_activity.activity.home.gestures_activity.emergency
 
 import android.content.Intent
 import android.os.Bundle

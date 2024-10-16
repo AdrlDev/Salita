@@ -26,9 +26,9 @@
     <string name="fsl_1">Overview about FSL</string>
     <string name="fsl_2">The Filipino Sign Language Act</string>
     <string name="fsl_3">Overview about FSL Keyboard</string>
-    <string name="fsl_4">Overview about FSL Emergency Signs</string>
+    <string name="fsl_4">Overview about FSL Gestures</string>
     <string name="translator">Translator</string>
-    <string name="prepared_to_use">Prepared to use</string>
+    <string name="prepared_to_use">Prefer to use</string>
     <string name="text_keyboard">Text Keyboard</string>
     <string name="sign_language">Sign Language</string>
     <string name="type_your_text_here">Type your text here…</string>
@@ -57,6 +57,10 @@
     </string>
     <string name="section_3">Section 3. Filipino Sign Language as the National Sign Language - Filipino Sign Language, hereinafter referred to as FSL, is hereby declared as the national sign language of the Philippines. The FSL shall be recognized, promoted, and supported as the medium of official communication in all transactions involving the deaf, and as the language of instruction of deaf education, without prejudice to the use of other forms of communication depending on individual choice or preference.</string>
     <string name="introducing_fsl_emergency_signs">Introducing FSL Emergency Signs</string>
+    <string name="introducing_fsl_alphabet_signs">Introducing FSL Alphabet Signs</string>
+    <string name="introducing_fsl_numbers_signs">Introducing FSL Numbers Signs</string>
+    <string name="introducing_fsl_family_signs">Introducing FSL Family Members Signs</string>
+    <string name="introducing_fsl_common_signs">Introducing FSL Common Phrases Signs</string>
     <string name="section_4_a">Section 4. Filipino Sign Language in Education. - (a) Medium of Instruction and Curriculum. - The Department of Education (DepEd), the Commission on Higher Education (CHED), the Technical Education and Skills Development Authority (TESDA), and all other national and local government agencies involved in the education of the deaf, are tasked to henceforth use, and coordinate with each other on the use of FSL, as the medium of instruction in deaf education. The FSL shall also be taught as a separate subject in the curriculum for deaf learners. The reading and writing of Filipino, as the national language, other Philippine languages, and English shall also be taught to deaf learners.</string>
     <string name="section_4_b">(b) Deaf Teachers. - To promote the licensing and mobilization of deaf teachers in formal education as well as alternative learning systems, the Professional Regulation Commission (PRC) together with teacher education programs nationwide are directed to employ alternative assessment procedures as affirmative action measures which shall consider the conditions, abilities, and social barriers of the deaf teachers. These procedures shall be language-appropriate and culture-fair to deaf education graduates.</string>
     <string name="section_4_c">(c) FLS in Teacher Education Programs. - In the context of inclusive education and Universal Design, the learning of FSL shall be a curricular or co-curricular offering in teacher education programs as deemed appropriate.</string>
@@ -122,7 +126,56 @@
     </string>
     <string name="fsl_keyboard_overview_title">INTRODUCING FILIPINO SIGN LANGUAGE KEYBOARD</string>
     <string name="fsl_keyboard_overview_desc">Filipino Sign Language Keyboard is an additonal feature of this application. Individuals with hearing impairments may interact more effectively in digital environments because of the FSL keyboard. They can express themselves in their native language by using it, which promotes accessibility and inclusivity in the field of communication.\n\nFSL is an essential component of Filipino Deaf culture thats serves as a communication tool. The introduction of an FSL keyboard contributes to the promotion and preservation of this distinctive linguistic and cultural legacy online.</string>
-    <string name="assessment_history">Assessment History</string>
-    <string name="your_assessment_result_show_here">Your assessment result show here.</string>
-    <string name="dog">Dog</string>
+    <string name="assessment_history" translatable="false">Assessment History</string>
+    <string name="your_assessment_result_show_here" translatable="false">Your assessment result show here.</string>
+    <string name="dog" translatable="false">Dog</string>
+
+    <string name="hi">Hi</string>
+    <string name="hello">Hello</string>
+    <string name="what_your_name">What is your name?</string>
+    <string name="how_are_you">How are you?</string>
+    <string name="excuse_me">Excuse Me</string>
+    <string name="take_care">Take Care</string>
+    <string name="try_again">Try again</string>
+    <string name="im_sorry">I\'m Sorry</string>
+    <string name="i_love_you">I love you</string>
+    <string name="i_dont_know">I don\'t know</string>
+    <string name="good_job">Good job</string>
+    <string name="come_learn_fsl">Come learn FSL</string>
+    <string name="good_morning">Good morning</string>
+    <string name="good_afternoon">Good afternoon</string>
+    <string name="good_evening">Good evening</string>
+
+    <string name="father">Father</string>
+    <string name="mother">Mother</string>
+    <string name="son">Son</string>
+    <string name="daughter">Daughter</string>
+    <string name="brother">Brother</string>
+    <string name="sister">Sister</string>
+    <string name="baby">Baby</string>
+
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+
+    <string name="_10">10</string>
+    <string name="_20">20</string>
+    <string name="_30">30</string>
+    <string name="_40">40</string>
+    <string name="_50">50</string>
+    <string name="_60">60</string>
+    <string name="_70">70</string>
+    <string name="_80">80</string>
+    <string name="_90">90</string>
+    <string name="_100">100</string>
+    <string name="_500">500</string>
+    <string name="_1000">1000</string>
+
 </resources>

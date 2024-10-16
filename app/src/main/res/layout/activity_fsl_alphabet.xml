@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dashboard_activity.activity.home.gestures_activity.emergency.FSLEmergency">
+    tools:context=".dashboard_activity.activity.home.gestures_activity.alphabet.FSLAlphabet">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="0dp"
@@ -34,7 +34,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Emergency"
+                android:text="Alphabet"
                 android:layout_marginStart="5dp"
                 android:gravity="start|center"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -58,7 +58,7 @@
                 <ImageView
                     android:layout_width="250dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/home_img_4"
+                    android:src="@drawable/alphabet"
                     android:contentDescription="@string/app_name"/>
 
                 <TextView
@@ -66,7 +66,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/introducing_fsl_emergency_signs"
+                    android:text="@string/introducing_fsl_alphabet_signs"
                     android:fontFamily="@font/spartan"
                     android:gravity="center"
                     android:textSize="16sp"
@@ -104,17 +104,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/emergency"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_a"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Emergency"
+                                android:text="A"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -134,17 +132,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/rescue"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_b"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Rescue"
+                                android:text="B"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -176,17 +172,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/drop"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_c"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Drop"
+                                android:text="C"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -206,17 +200,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/earthquake"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_d"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Earthquake"
+                                android:text="D"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -248,17 +240,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/safe"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_e"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Safe"
+                                android:text="E"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -278,17 +268,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/stop"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_f"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Stop"
+                                android:text="F"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -320,17 +308,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/typhoon"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_g"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Typhoon"
+                                android:text="G"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -350,17 +336,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/not_safe"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_h"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Not Safe"
+                                android:text="H"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -392,17 +376,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/roll"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_i"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Roll"
+                                android:text="I"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -422,17 +404,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/flood"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_j"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Flood"
+                                android:text="J"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -464,17 +444,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/danger"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_k"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Danger"
+                                android:text="K"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -494,17 +472,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/cover"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_l"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Cover"
+                                android:text="L"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -536,17 +512,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/fire"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_m"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Fire"
+                                android:text="M"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -566,17 +540,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/first_aid"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_n"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="First Aid"
+                                android:text="N"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -608,17 +580,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/calm_down"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_o"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Calm Down"
+                                android:text="O"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -638,17 +608,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/thief"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_p"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Thief"
+                                android:text="P"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -680,17 +648,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/whistle"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_q"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Whistle"
+                                android:text="Q"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -710,17 +676,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/go"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_r"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Go"
+                                android:text="R"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -752,17 +716,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/call_for_help"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_s"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Call for help"
+                                android:text="S"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -782,17 +744,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/run"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_t"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Run"
+                                android:text="T"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -824,17 +784,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/inside"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_u"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Inside"
+                                android:text="U"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -854,17 +812,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/follow_me"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_v"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Follow Me"
+                                android:text="V"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -896,17 +852,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/stay"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_w"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Stay"
+                                android:text="W"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -926,17 +880,15 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/outside"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_x"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Outside"
+                                android:text="X"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"
@@ -957,7 +909,6 @@
                         >
 
                         <LinearLayout
-                            android:id="@+id/btn_wait"
                             android:layout_marginEnd="5dp"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -968,17 +919,42 @@
                             android:background="@drawable/translate_button_bg"
                             tools:ignore="NestedWeights">
 
-                            <com.airbnb.lottie.LottieAnimationView
-                                android:layout_width="wrap_content"
+                            <ImageView
+                                android:layout_width="match_parent"
                                 android:layout_height="120dp"
-                                app:lottie_rawRes="@raw/wait"
-                                app:lottie_autoPlay="true"
-                                app:lottie_loop="true"/>
+                                android:src="@drawable/letter_y"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Wait"
+                                android:text="Y"
+                                android:textSize="18sp"
+                                android:fontFamily="@font/spartan_black"
+                                android:textColor="@color/text_dark"
+                                android:layout_marginTop="20dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginStart="5dp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:padding="20dp"
+                            android:gravity="center"
+                            android:background="@drawable/translate_button_bg"
+                            tools:ignore="NestedWeights">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
+                                android:src="@drawable/letter_z"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Z"
                                 android:textSize="18sp"
                                 android:fontFamily="@font/spartan_black"
                                 android:textColor="@color/text_dark"

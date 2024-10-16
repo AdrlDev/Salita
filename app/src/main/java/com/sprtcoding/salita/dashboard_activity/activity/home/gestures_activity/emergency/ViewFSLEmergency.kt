@@ -1,5 +1,6 @@
-package com.sprtcoding.salita.dashboard_activity.activity.home.emergency_activity
+package com.sprtcoding.salita.dashboard_activity.activity.home.gestures_activity.emergency
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
@@ -14,7 +15,12 @@ class ViewFSLEmergency : AppCompatActivity() {
     private lateinit var animView: LottieAnimationView
     private lateinit var btnBack: ImageView
     private lateinit var tvSign: TextView
+    private lateinit var logo: ImageView
+    private lateinit var tvTitle: TextView
     private var signLang: String? = null
+    private var title: String? = null
+    private var type: String? = null
+    private var anim: Int? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,10 +41,27 @@ class ViewFSLEmergency : AppCompatActivity() {
         btnBack = findViewById(R.id.btn_back)
         animView = findViewById(R.id.anim_view)
         tvSign = findViewById(R.id.tv_sign)
+        logo = findViewById(R.id.logo)
+        tvTitle = findViewById(R.id.tv_title)
     }
 
+    @SuppressLint("SetTextI18n")
     private fun init() {
         signLang = intent.getStringExtra("signLang")
+        type = intent.getStringExtra("fsl_type")
+        title = intent.getStringExtra("title")
+        anim = intent.getIntExtra("anim", 0)
+
+        if(type == "numbers") {
+            logo.setImageResource(R.drawable.numbers)
+            tvTitle.text = "Numbers"
+        }
+
+        if(title != null && anim != 0) {
+            tvSign.text = title
+            animView.setAnimation(anim!!)
+            animView.animate()
+        }
     }
 
     private fun afterInit() {

@@ -8,13 +8,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.annotation.NonNull
 import androidx.cardview.widget.CardView
 import androidx.viewpager.widget.PagerAdapter
 import com.sprtcoding.salita.R
+import com.sprtcoding.salita.dashboard_activity.activity.home.FSLGestures
 import com.sprtcoding.salita.dashboard_activity.activity.home.FSLOverview
-import com.sprtcoding.salita.dashboard_activity.activity.home.emergency_activity.FSLEmergency
 import com.sprtcoding.salita.dashboard_activity.activity.home.fsl_act_activity.FSLAct
 import com.sprtcoding.salita.dashboard_activity.activity.home.fsl_keyboard.FSLKeyboard
 
@@ -23,7 +22,7 @@ class HomePagerAdapter(private val context: Context) : PagerAdapter() {
         R.drawable.home_img_1,
         R.drawable.home_img_2,
         R.drawable.home_img_3,
-        R.drawable.home_img_4
+        R.drawable.new_overview
     )
 
     private val title = intArrayOf(
@@ -72,7 +71,7 @@ class HomePagerAdapter(private val context: Context) : PagerAdapter() {
             } else if(title[position] == R.string.fsl_3) {
                 context.startActivity(Intent(context, FSLKeyboard::class.java))
             } else if(title[position] == R.string.fsl_4) {
-                context.startActivity(Intent(context, FSLEmergency::class.java))
+                context.startActivity(Intent(context, FSLGestures::class.java))
             }
         }
 

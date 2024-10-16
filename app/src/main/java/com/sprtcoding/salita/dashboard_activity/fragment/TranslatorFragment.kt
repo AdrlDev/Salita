@@ -31,10 +31,10 @@ import androidx.core.view.isVisible
 import com.google.android.material.button.MaterialButton
 import com.sprtcoding.salita.R
 import com.sprtcoding.salita.dashboard_activity.activity.GenerateResultActivity
+import com.sprtcoding.salita.helpers.Constant.REQUEST_RECORD_AUDIO_PERMISSION
 import com.sprtcoding.salita.helpers.Utils
 import com.sprtcoding.salita.helpers.Utils.convertIconsToText
 import com.sprtcoding.salita.helpers.Utils.convertImageSpansToDrawables
-import com.sprtcoding.salita.helpers.Utils.drawableToByteArray
 import com.sprtcoding.salita.helpers.Utils.retrieveData
 import com.sprtcoding.salita.helpers.Utils.saveSelectedInputKeyboard
 import java.util.Locale
@@ -54,7 +54,6 @@ class TranslatorFragment : Fragment(), TextToSpeech.OnInitListener {
     private lateinit var btnGenerate: MaterialButton
     private lateinit var speechRecognizer: SpeechRecognizer
     private lateinit var textToSpeech: TextToSpeech
-    private val REQUEST_RECORD_AUDIO_PERMISSION = 200
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

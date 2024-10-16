@@ -41,14 +41,14 @@ import java.io.ByteArrayOutputStream
 import java.util.Locale
 import kotlin.system.exitProcess
 
-
 object Utils {
 
     private val basicPhraseMap: HashMap<String, Boolean> = hashMapOf(
         "what's your name" to true,
+        "what's your name?" to true,
         "try again" to true,
         "take care" to true,
-        "sorry" to true,
+        "i'm sorry" to true,
         "i love you" to true,
         "i don't know" to true,
         "how are you" to true,
@@ -96,7 +96,7 @@ object Utils {
         "go" to true,
         "follow me" to true,
         "flood" to true,
-        "first aid" to true,
+        "first aid kit" to true,
         "fire" to true,
         "emergency" to true,
         "earthquake" to true,
@@ -104,14 +104,81 @@ object Utils {
         "danger" to true,
         "cover" to true,
         "calm down" to true,
-        "call for help" to true
+        "call for help" to true,
+
+        //tagalog
+        "anong pangalan mo" to true,
+        "anong pangalan mo?" to true,
+        "subukan ulit" to true,
+        "mag-iingat ka" to true,
+        "pasensya na" to true,
+        "paumanhin" to true,
+        "mahal kita" to true,
+        "hindi ko alam" to true,
+        "kumusta ka" to true,
+        "magandang gabi" to true,
+        "magandang umaga" to true,
+        "magaling" to true,
+        "magandang hapon" to true,
+        "makikiraan" to true,
+        "halina't matuto ng fsl" to true,
+        "anak na lalaki" to true,
+        "ate" to true,
+        "nanay" to true,
+        "ina" to true,
+        "tatay" to true,
+        "ama" to true,
+        "anak na babae" to true,
+        "kuya" to true,
+        "sanggol" to true,
+        "isang libo" to true,
+        "limang daan" to true,
+        "isang daan" to true,
+        "siyamnapu" to true,
+        "walumpu" to true,
+        "pitumpu" to true,
+        "animnapu" to true,
+        "limampu" to true,
+        "apatnapu" to true,
+        "tatlumpu" to true,
+        "dalawampu" to true,
+        "sampo" to true,
+        "magnanakaw" to true,
+        "manatili" to true,
+        "sipol" to true,
+        "hintay" to true,
+        "sandali" to true,
+        "bagyo" to true,
+        "tigil" to true,
+        "hinto" to true,
+        "ligtas" to true,
+        "takbo" to true,
+        "gumulong" to true,
+        "iligtas" to true,
+        "sagipin" to true,
+        "sa labas" to true,
+        "hindi ligtas" to true,
+        "sa loob" to true,
+        "magpatuloy" to true,
+        "sundan mo ako" to true,
+        "baha" to true,
+        "paunang lunas" to true,
+        "sunog" to true,
+        "hindi inaasahang pangyayari" to true,
+        "lindol" to true,
+        "dumapa" to true,
+        "kapahamakan" to true,
+        "takpan" to true,
+        "huminahon ka" to true,
+        "tumawag ng tulong" to true
     )
 
     private val basicPhraseAnimationMap: HashMap<String, Int> = hashMapOf(
         "what's your name" to R.raw.whats_your_name,
+        "what's your name?" to R.raw.whats_your_name,
         "try again" to R.raw.try_again,
         "take care" to R.raw.take_care,
-        "sorry" to R.raw.sorry,
+        "i'm sorry" to R.raw.sorry,
         "i love you" to R.raw.i_love_you,
         "i don't know" to R.raw.i_dont_know,
         "how are you" to R.raw.how_are_you,
@@ -140,7 +207,7 @@ object Utils {
         "go" to R.raw.go,
         "follow me" to R.raw.follow_me,
         "flood" to R.raw.flood,
-        "first aid" to R.raw.first_aid,
+        "first aid kit" to R.raw.first_aid,
         "fire" to R.raw.fire,
         "emergency" to R.raw.emergency,
         "earthquake" to R.raw.earthquake,
@@ -167,7 +234,73 @@ object Utils {
         "40" to R.raw._40,
         "30" to R.raw._30,
         "20" to R.raw._20,
-        "10" to R.raw._10
+        "10" to R.raw._10,
+
+        //tagalog
+        "anong pangalan mo" to R.raw.whats_your_name,
+        "anong pangalan mo?" to R.raw.whats_your_name,
+        "subukan ulit" to R.raw.try_again,
+        "mag-iingat ka" to R.raw.take_care,
+        "pasensya na" to R.raw.sorry,
+        "paumanhin" to R.raw.sorry,
+        "mahal kita" to R.raw.i_love_you,
+        "hindi ko alam" to R.raw.i_dont_know,
+        "kumusta ka" to R.raw.how_are_you,
+        "magandang gabi" to R.raw.good_night,
+        "magandang umaga" to R.raw.good_morning,
+        "magaling" to R.raw.good_job,
+        "magandang hapon" to R.raw.good_afternoon,
+        "makikiraan" to R.raw.excuse_me,
+        "halina't matuto ng fsl" to R.raw.come_learn_fsl,
+        "anak na lalaki" to R.raw._son,
+        "ate" to R.raw._sister,
+        "nanay" to R.raw._mother,
+        "ina" to R.raw._mother,
+        "tatay" to R.raw._father,
+        "ama" to R.raw._father,
+        "anak na babae" to R.raw._daughter,
+        "kuya" to R.raw._brother,
+        "sanggol" to R.raw._baby,
+        "isang libo" to R.raw._1000,
+        "limang daan" to R.raw._500,
+        "isang daan" to R.raw._100,
+        "siyamnapu" to R.raw._90,
+        "walumpu" to R.raw._80,
+        "pitumpu" to R.raw._70,
+        "animnapu" to R.raw._60,
+        "limampu" to R.raw._50,
+        "apatnapu" to R.raw._40,
+        "tatlumpu" to R.raw._30,
+        "dalawampu" to R.raw._20,
+        "sampo" to R.raw._10,
+        "magnanakaw" to R.raw.thief,
+        "manatili" to R.raw.stay,
+        "sipol" to R.raw.whistle,
+        "hintay" to R.raw.wait,
+        "Sandali" to R.raw.wait,
+        "bagyo" to R.raw.typhoon,
+        "tigil" to R.raw.stop,
+        "hinto" to R.raw.stop,
+        "ligtas" to R.raw.safe,
+        "takbo" to R.raw.run,
+        "gumulong" to R.raw.roll,
+        "iligtas" to R.raw.rescue,
+        "sagipin" to R.raw.rescue,
+        "sa labas" to R.raw.outside,
+        "hindi ligtas" to R.raw.not_safe,
+        "sa loob" to R.raw.inside,
+        "magpatuloy" to R.raw.go,
+        "sundan mo ako" to R.raw.follow_me,
+        "baha" to R.raw.flood,
+        "paunang lunas" to R.raw.first_aid,
+        "sunog" to R.raw.fire,
+        "hindi inaasahang pangyayari" to R.raw.emergency,
+        "lindol" to R.raw.earthquake,
+        "dumapa" to R.raw.drop,
+        "kapahamakan" to R.raw.danger,
+        "takpan" to R.raw.cover,
+        "huminahon ka" to R.raw.calm_down,
+        "tumawag ng tulong" to R.raw.call_for_help
     )
 
     private val drawableToCharMap = mapOf(
@@ -286,8 +419,18 @@ object Utils {
         "'" to R.drawable.single_qote_symbol,
         "\"" to R.drawable.qotation_symbol,
         "," to R.drawable.comma_sign,
-        "-" to R.drawable.minus_sign
+        "-" to R.drawable.minus_sign,
         // Add other mappings here
+
+        "isa" to R.drawable.number_1,
+        "dalawa" to R.drawable.number_2,
+        "tatlo" to R.drawable.number_3,
+        "apat" to R.drawable.number_4,
+        "lima" to R.drawable.number_5,
+        "anim" to R.drawable.number_6,
+        "pito" to R.drawable.number_7,
+        "walo" to R.drawable.number_8,
+        "siyam" to R.drawable.number_9,
     )
 
     fun rotateImageView(imageViewReverse : ImageView) {
@@ -295,17 +438,6 @@ object Utils {
         val animator = ObjectAnimator.ofFloat(imageViewReverse, "rotation", 0f, 360f)
         animator.duration = 1000 // Set duration for the animation, e.g., 1 second
         animator.start() // Start the animation
-    }
-
-    fun drawableToByteArray(drawable: Drawable): ByteArray {
-        if (drawable is BitmapDrawable) {
-            val bitmap = drawable.bitmap
-            val stream = ByteArrayOutputStream()
-            bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream)
-            return stream.toByteArray()
-        }
-        // Handle other types of Drawables if needed
-        throw IllegalArgumentException("Unsupported drawable type")
     }
 
     fun convertImageSpansToDrawables(editText: EditText): List<Drawable> {
@@ -322,19 +454,6 @@ object Utils {
         }
 
         return drawables
-    }
-
-    // Example: Function to convert Drawable to Bitmap
-    fun drawableToBitmap(drawable: Drawable): Bitmap {
-        val bitmap = Bitmap.createBitmap(
-            drawable.intrinsicWidth,
-            drawable.intrinsicHeight,
-            Bitmap.Config.ARGB_8888
-        )
-        val canvas = Canvas(bitmap)
-        drawable.setBounds(0, 0, canvas.width, canvas.height)
-        drawable.draw(canvas)
-        return bitmap
     }
 
     fun convertIconsToText(editText: EditText): String {
@@ -374,12 +493,68 @@ object Utils {
         val spannableStringBuilder = SpannableStringBuilder()
         var isAnimClick = false
 
-        for (char in text) {
+        // Get the available width in pixels of the EditText
+        editText.post {
+            val availableWidth = editText.width // The total width of EditText
+
+            var currentLineWidth = 0 // Track the current width of the line
+
+            for (char in text.lowercase()) {
+                val drawableRes = charToDrawableMap[char]
+                if (drawableRes != null) {
+                    val signDrawable = ContextCompat.getDrawable(context, drawableRes)
+                    if (signDrawable != null) {
+                        val size = 64 // Adjusted size of the image
+                        signDrawable.setBounds(0, 0, size, size)
+                        val imageSpan = SignLanguageKeyboardService.CustomImageSpan(
+                            signDrawable,
+                            drawableRes,
+                            ImageSpan.ALIGN_BASELINE
+                        )
+
+                        // Calculate the image width (108 pixels)
+                        val imageWidth = size
+
+                        // Check if adding this image would overflow the line
+                        if (currentLineWidth + imageWidth > availableWidth) {
+                            // If it overflows, add a new line and reset current line width
+                            spannableStringBuilder.append("\n")
+                            currentLineWidth = 0
+                        }
+
+                        // Add the image to the spannable string
+                        val spannableString = SpannableString(" ")
+                        spannableString.setSpan(imageSpan, 0, 1, 0)
+                        spannableStringBuilder.append(spannableString)
+
+                        // Update the current line width
+                        currentLineWidth += imageWidth
+                    }
+                } else {
+                    // For characters, measure the width of the character
+                    val textWidth = editText.paint.measureText(char.toString()).toInt()
+
+                    // Check if adding the character would overflow the line
+                    if (currentLineWidth + textWidth > availableWidth) {
+                        // If it overflows, add a new line and reset current line width
+                        spannableStringBuilder.append("\n")
+                        currentLineWidth = 0
+                    }
+
+                    // Append the character and update the current line width
+                    spannableStringBuilder.append(char)
+                    currentLineWidth += textWidth
+                }
+            }
+            editText.text = spannableStringBuilder
+        }
+
+        /*for (char in text.lowercase()) {
             val drawableRes = charToDrawableMap[char]
             if (drawableRes != null) {
                 val signDrawable = ContextCompat.getDrawable(context, drawableRes)
                 if (signDrawable != null) {
-                    val size = 54 // Set the size to 54px
+                    val size = 108 // Set the size to 54px
                     signDrawable.setBounds(0, 0, size, size)
                     val imageSpan = CustomImageSpan(signDrawable, drawableRes, ImageSpan.ALIGN_BASELINE)
                     val spannableString = SpannableString(" ")
@@ -389,9 +564,9 @@ object Utils {
             } else {
                 spannableStringBuilder.append(char) // Append the character if there's no matching drawable
             }
-        }
+        }*/
         // Set the modified text back to EditText
-        editText.text = spannableStringBuilder
+//        editText.text = spannableStringBuilder
 
         if(basicPhraseMap.contains(text.lowercase().trim())) {
             btnShow.visibility = View.VISIBLE
@@ -421,13 +596,6 @@ object Utils {
                 }
             }
             isAnimClick = !isAnimClick // Toggle the flag
-        }
-    }
-
-    // CustomImageSpan class definition (same as before)
-    class CustomImageSpan(drawable: Drawable, private val resourceId: Int, verticalAlignment: Int) : ImageSpan(drawable, verticalAlignment) {
-        fun getResourceId(): Int {
-            return resourceId
         }
     }
 

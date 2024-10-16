@@ -16,6 +16,21 @@
         android:theme="@style/Theme.Salita"
         tools:targetApi="31">
         <activity
+            android:name=".dashboard_activity.activity.home.gestures_activity.common.FSLCommonGestures"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.home.gestures_activity.family.FSLFamily"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.home.gestures_activity.ViewFSLGestures"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.home.gestures_activity.numbers.FSLNumbers"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.home.FSLGestures"
+            android:exported="false" />
+        <activity
             android:name=".dashboard_activity.activity.AboutUs"
             android:exported="false" />
         <activity
@@ -34,10 +49,13 @@
             android:name=".dashboard_activity.activity.home.fsl_keyboard.FSLKeyboard"
             android:exported="false" />
         <activity
-            android:name=".dashboard_activity.activity.home.emergency_activity.ViewFSLEmergency"
+            android:name=".dashboard_activity.activity.home.gestures_activity.emergency.ViewFSLEmergency"
             android:exported="false" />
         <activity
-            android:name=".dashboard_activity.activity.home.emergency_activity.FSLEmergency"
+            android:name=".dashboard_activity.activity.home.gestures_activity.emergency.FSLEmergency"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity.activity.home.gestures_activity.alphabet.FSLAlphabet"
             android:exported="false" />
         <activity
             android:name=".dashboard_activity.activity.home.fsl_act_activity.FSLAct"

@@ -25,9 +25,9 @@
     <string name="fsl_1">Ideya patungkol sa FSL</string>
     <string name="fsl_2">Ang Filipino Sign Language Act</string>
     <string name="fsl_3">Ideya patungkol sa FSL Keyboard</string>
-    <string name="fsl_4">Ideya patungkol sa FSL Emergency Signs</string>
+    <string name="fsl_4">Pangkalahatang-ideya tungkol sa FSL Gestures</string>
     <string name="translator">Translator</string>
-    <string name="prepared_to_use">Prepared to use</string>
+    <string name="prepared_to_use">Nais gamitin</string>
     <string name="text_keyboard">Text Keyboard</string>
     <string name="sign_language">Sign Language</string>
     <string name="type_your_text_here">Type your text here…</string>
@@ -48,6 +48,10 @@
     </string>
     <string name="section_3">SEKSYON 3. Filipino Sign Language bilang National Sign Language - Ang Filipino Sign Language, pagkatapos ay tinutukoy bilang FSL, ay idineklara bilang pambansang sign language ng Pilipinas. Ang FSL ay dapat kilalanin, i-promote, at susuportahan bilang midyum ng opisyal na komunikasyon sa lahat ng mga transaksyon na kinasasangkutan ng mga bingi, at bilang wika ng pagtuturo ng edukasyon ng mga bingi, nang walang pagkiling sa paggamit ng iba pang mga anyo ng komunikasyon depende sa indibidwal na pinili o kagustuhan.</string>
     <string name="introducing_fsl_emergency_signs">Mga ilang Halimbawa FSL Emergency Signs</string>
+    <string name="introducing_fsl_alphabet_signs">Mga ilang Halimbawa FSL Alphabet Signs</string>
+    <string name="introducing_fsl_numbers_signs">Mga ilang Halimbawa FSL Numbers Signs</string>
+    <string name="introducing_fsl_family_signs">Mga ilang Halimbawa FSL Family Members Signs</string>
+    <string name="introducing_fsl_common_signs">Mga ilang Halimbawa FSL Common Phrases Signs</string>
     <string name="section_4_a">SEKSYON 4. Filipino Sign Language sa Edukasyon. - (a) Midyum ng Pagtuturo at Kurikulum. - Ang Kagawaran ng Edukasyon (DepEd), ang Commission on Higher Education (CHED), ang Technical Education and Skills Development Authority (TESDA), at lahat ng iba pang ahensya ng pambansa at lokal na pamahalaan na kasangkot sa edukasyon ng mga bingi, ay inatasan na gamitin mula ngayon, at makipag-ugnayan sa isa\'t isa sa paggamit ng FSL, bilang midyum ng pagtuturo sa edukasyong bingi. Ang FSL ay dapat ding ituro bilang isang hiwalay na paksa sa kurikulum para sa mga bingi na nag-aaral. Ang pagbasa at pagsulat ng Filipino, bilang pambansang wika, iba pang mga wika sa Pilipinas, at Ingles ay dapat ding ituro sa mga bingi na nag-aaral.</string>
     <string name="section_4_b">(b) Mga Guro na Bingi. - Upang isulong ang paglilisensya at pagpapakilos ng mga bingi na guro sa pormal na edukasyon gayundin ang mga alternatibong sistema ng pag-aaral, ang Professional Regulation Commission (PRC) kasama ang mga programa sa edukasyon ng guro sa buong bansa ay inaatasan na gumamit ng mga alternatibong pamamaraan sa pagtatasa bilang mga hakbang sa affirmative action na dapat isaalang-alang ang mga kondisyon, kakayahan. , at mga hadlang sa lipunan ng mga gurong bingi. Ang mga pamamaraang ito ay dapat na angkop sa wika at patas sa kultura para sa mga nagtapos ng edukasyong bingi.</string>
     <string name="section_4_c">(c) FSL sa Mga Programa sa Edukasyon ng Guro. - Sa konteksto ng inklusibong edukasyon at Pangkalahatang Disenyo, ang pag-aaral ng FSL ay dapat na isang curricular o co-curricular na alok sa mga programa sa edukasyon ng guro kung itinuring na naaangkop.</string>
@@ -117,5 +121,52 @@
         \n\nAng FSL ay isang mahalagang bahagi ng Filipino Deaf culture na nagsisilbing kasangkapan sa komunikasyon. Ang pagpapakilala ng isang FSL keyboard ay nag-aambag sa pag-promote at pagpapanatili ng natatanging lingguwistika at kultural na pamana online.
     </string>
 
+    <string name="hi">Hi</string>
+    <string name="hello">Hello</string>
+    <string name="what_your_name">Anong pangalan mo?</string>
+    <string name="how_are_you">Kumusta ka?</string>
+    <string name="excuse_me">Makikiraan</string>
+    <string name="take_care">Mag-iingat ka</string>
+    <string name="try_again">Subukan ulit</string>
+    <string name="im_sorry">Pasensya na</string>
+    <string name="i_love_you">Mahal kita</string>
+    <string name="i_dont_know">Hindi ko alam</string>
+    <string name="good_job">Magaling</string>
+    <string name="come_learn_fsl">Halina\'t matuto ng FSL</string>
+    <string name="good_morning">Magandang Umaga</string>
+    <string name="good_afternoon">Magandang Hapon</string>
+    <string name="good_evening">Magandang Gabi</string>
+
+    <string name="father">Tatay</string>
+    <string name="mother">Nanay</string>
+    <string name="son">Anak na lalaki</string>
+    <string name="daughter">Anak na babae</string>
+    <string name="brother">Kuya</string>
+    <string name="sister">Ate</string>
+    <string name="baby">Sanggol</string>
+
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+
+    <string name="_10">10</string>
+    <string name="_20">20</string>
+    <string name="_30">30</string>
+    <string name="_40">40</string>
+    <string name="_50">50</string>
+    <string name="_60">60</string>
+    <string name="_70">70</string>
+    <string name="_80">80</string>
+    <string name="_90">90</string>
+    <string name="_100">100</string>
+    <string name="_500">500</string>
+    <string name="_1000">1000</string>
 
 </resources>
